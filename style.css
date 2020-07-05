@@ -1,6 +1,6 @@
 body {
   font-family: 'Jua', sans-serif;
-  background-color: #ffffff;
+  background-color: #EEF5DB;
   box-sizing: border-box;
   color: #35465d;
 }
@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
-    background-color: #f5f5f5;
+    background-color: #B8D8D8;
 }
 .file-upload-btn {
   width: 100%;
@@ -96,9 +96,9 @@ body {
 }
 
 .try-again-btn {
-  border-radius: 40px;
+  border-radius: 15px;
   border: solid 1.5px #35465d;
-  background-color: #35465d;
+  background-color: #e85862;
 }
 
 .try-again-text {
@@ -135,15 +135,16 @@ body {
 }
 	
 .subtitle {
-  font-family: Impact;
-  line-height: 1.60;
+  font-family: sans-serif;
+	font-weight: bold;
+  line-height: 1;
   text-align: center;
   color: #35465d;
 	font-size: 15px;
 }
 
 .signature {
-  font-family: cursive;
+  font-family: sans-serif;
 	font-weight: bold;
 	font-style: italic;
   line-height: 1.00;
@@ -203,6 +204,10 @@ body {
     color: #35465d;
     margin: 0 auto;
 }
+.spinner-border {
+	color: #d8b8b8;
+}
+
 }
 /* On screens that are 600px or less, set the font-size to 8px */
 @media screen and (max-width: 600px) {
