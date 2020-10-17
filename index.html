@@ -126,6 +126,7 @@
             // predict can take in an image, video or canvas html element
             var image = document.getElementById("face-image")
             const prediction = await model.predict(image, false);
+	    prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
             console.log(prediction[0].className);
 			var resultMessage;
             switch (prediction[0].className) {
