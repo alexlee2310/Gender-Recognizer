@@ -1,6 +1,6 @@
 body {
   font-family: 'Jua', sans-serif;
-  background-color: #EEF5DB;
+  background-image: linear-gradient(90deg, skyblue, violet);
   box-sizing: border-box;
   color: #35465d;
 }
