@@ -186,7 +186,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+  background-color: rgba(235, 166, 190, 1);
 }
 .Female-bar {
   position: absolute;
@@ -194,7 +194,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+  background-color: #ed74c9;
 }
 
 .upload-text {
