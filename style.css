@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     border-radius: 40px;
     border: solid 1.5px #f6f7fa;
-    background-color: #B8D8D8;
+    background-color: transparent;
 }
 .file-upload-btn {
   width: 100%;
